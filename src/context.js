@@ -2,7 +2,7 @@ import axios from 'axios'
 // import React, { useState, useContext, useEffect } from 'react'
 // useEffect is used at initial development to check the app
 // but after using the handleSubmit funtion on button no need to use that
-import React, { useState, useContext, useEffect } from 'react'
+import React, { useContext, useState } from 'react'
 
 const table = {
   sports: 21,
@@ -141,3 +141,4 @@ export const useGlobalContext = () => {
 }
 
 export { AppContext, AppProvider }
+// test comment
