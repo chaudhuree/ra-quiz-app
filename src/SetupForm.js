@@ -13,6 +13,7 @@ const SetupForm = () => {
             <label htmlFor='amount'>number of questions</label>
             <input
               type='number'
+              // name should be very specific to handle controled input
               name='amount'
               id='amount'
               value={quiz.amount}

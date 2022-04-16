@@ -9,6 +9,7 @@ const Modal = () => {
         isModalOpen ? 'modal-container isOpen' : 'modal-container'
       }`}
     >
+    {/* here isOpen is a class to show  or hide the modal */}
       <div className='modal-content'>
         <h2>congrats!</h2>
         <p>

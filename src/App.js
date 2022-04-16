@@ -1,9 +1,9 @@
 import React from 'react'
 import { useGlobalContext } from './context'
-
-import SetupForm from './SetupForm'
 import Loading from './Loading'
 import Modal from './Modal'
+import SetupForm from './SetupForm'
+
 function App() {
   const {
     waiting,
@@ -47,6 +47,8 @@ function App() {
                   key={index}
                   className='answer-btn'
                   onClick={() => checkAnswer(correct_answer === answer)}
+                  // correct_answer comes from the api. answer is the value
+                  // compare both and determine if correct or incorrect
                   dangerouslySetInnerHTML={{ __html: answer }}
                 />
               )
