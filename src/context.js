@@ -96,7 +96,7 @@ const AppProvider = ({ children }) => {
     setIsModalOpen(false)
   }
   // change the value of quiz object with each change in value
-  // controled input system
+  // controled input system (important)
   const handleChange = (e) => {
     const name = e.target.name
     const value = e.target.value
